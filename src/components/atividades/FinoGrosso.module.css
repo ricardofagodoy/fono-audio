@@ -1,0 +1,79 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background-image: url(../../assets/grossofino/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sacramento'), local('Sacramento'),
+       url('../../assets/fonts/Sacramento-Regular.ttf') format('truetype')
+}
+
+.balls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin: 6vh 10vw;
+}
+
+.ball {
+  width: 4vmax;
+  height: 4vmax;
+  border: 1px dotted black;
+  border-radius: 100%;
+}
+
+#voltar {
+  position: absolute;
+  width: 10vmax;
+  top: 40vh;
+  left: 5vw;
+}
+
+#repetir {
+  position: absolute;
+  top: 40vh;
+  width: 10vmax;
+  right: 5vw;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15vh 10vw;
+}
+
+.square {
+  width: 25vmax;
+  height: 25vmax;
+  text-align: center;
+}
+
+.text {
+  position: relative;
+  top: 20%;
+  line-height: 1.2em;
+  padding: 5%;
+  color: blue;
+  font-family: 'Sacramento';
+  font-size: 3.5vmax;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,48 @@
+html {
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sacramento'), local('Sacramento'),
+       url('../../assets/fonts/Sacramento-Regular.ttf') format('truetype')
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3vh 10vw;
+}
+
+.square {
+  width: 15vmax;
+  height: 15vmax;
+  margin: 2vw;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 4vmax;
+  background-color: #D9D9D9;
+}
+
+.text {
+  position: relative;
+  top: 20%;
+  line-height: 1.2em;
+  padding: 5%;
+  color: blue;
+  font-family: 'Sacramento';
+  font-size: 3.5vmax;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
