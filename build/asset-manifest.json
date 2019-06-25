@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74dba5bf.chunk.css",
+    "main.js": "/static/js/main.f5154731.chunk.js",
+    "main.js.map": "/static/js/main.f5154731.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.0d823483.chunk.js": "/static/js/2.0d823483.chunk.js",
+    "static/js/2.0d823483.chunk.js.map": "/static/js/2.0d823483.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d896510da4ff8030ddd5491b487d5f59.js": "/precache-manifest.d896510da4ff8030ddd5491b487d5f59.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.74dba5bf.chunk.css.map": "/static/css/main.74dba5bf.chunk.css.map",
+    "static/media/App.module.css": "/static/media/Sacramento-Regular.f16616a9.ttf",
+    "static/media/fino.jpg": "/static/media/fino.722609b4.jpg",
+    "static/media/fino.mp3": "/static/media/fino.76e4ec60.mp3",
+    "static/media/FinoGrosso.module.css": "/static/media/fundo.e373e6dd.png",
+    "static/media/grosso.jpg": "/static/media/grosso.96d8ff87.jpg",
+    "static/media/grosso.mp3": "/static/media/grosso.f36476fa.mp3",
+    "static/media/repetir.jpg": "/static/media/repetir.01f3b874.jpg",
+    "static/media/voltar.jpg": "/static/media/voltar.7a58e02a.jpg"
+  }
+}
