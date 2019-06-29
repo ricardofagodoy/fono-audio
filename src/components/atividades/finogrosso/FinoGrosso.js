@@ -1,13 +1,16 @@
 import React from 'react';
 import styles from './FinoGrosso.module.css';
 
-import grosso_img from '../../assets/grossofino/grosso.jpg'
-import fino_img from '../../assets/grossofino/fino.jpg'
-import voltar from '../../assets/images/voltar.jpg'
-import repetir from '../../assets/images/repetir.jpg'
+import voltar from 'assets/images/voltar.jpg'
+import repetir from 'assets/images/repetir.jpg'
 
-import grosso from '../../assets/grossofino/grosso.mp3'
-import fino from '../../assets/grossofino/fino.mp3'
+/** Imagens **/
+import grosso_img from 'assets/atividades/grossofino/grosso.jpg'
+import fino_img from 'assets/atividades/grossofino/fino.jpg'
+
+/** Sons **/
+import grosso from 'assets/atividades/grossofino/grosso.mp3'
+import fino from 'assets/atividades/grossofino/fino.mp3'
 
 const NIVEIS = 10
 
@@ -20,7 +23,6 @@ class FinoGrosso extends React.Component {
     // Sons
     this.grosso = new Audio(grosso)
     this.fino = new Audio(fino)
-    this.fino.volume = 0.2
 
     const niveis = this.initLevels()
     this.state = {niveis}
@@ -59,7 +61,7 @@ class FinoGrosso extends React.Component {
     setTimeout(() => {
       this.state.niveis[this.nivel].sound.play()
       this.played = true
-    }, 3000)
+    }, 2000)
   }
 
   clicked = (e) => {

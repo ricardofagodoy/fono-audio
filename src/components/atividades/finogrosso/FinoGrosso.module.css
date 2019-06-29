@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url(../../assets/grossofino/fundo.png);
+  background-image: url(~assets/atividades/grossofino/fundo.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13,7 +13,7 @@ body {
   font-style: normal;
   font-weight: 400;
   src: local('Sacramento'), local('Sacramento'),
-       url('../../assets/fonts/Sacramento-Regular.ttf') format('truetype')
+       url('~assets/fonts/Sacramento-Regular.ttf') format('truetype')
 }
 
 .balls {

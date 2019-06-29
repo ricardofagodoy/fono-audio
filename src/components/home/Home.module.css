@@ -7,7 +7,7 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local('Sacramento'), local('Sacramento'),
-       url('../../assets/fonts/Sacramento-Regular.ttf') format('truetype')
+       url('~assets/fonts/Sacramento-Regular.ttf') format('truetype')
 }
 
 .grid {
